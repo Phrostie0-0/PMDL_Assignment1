@@ -1,0 +1,8 @@
+{
+  "mae_earth_masses": 74.4283251319945,
+  "median_ae_earth_masses": 1.2809691106688028,
+  "rmse_earth_masses": 282.2589231254779,
+  "r2": 0.7915855445090942,
+  "rmsle": 0.6005595303418079,
+  "within_factor_2_fraction": 0.8726530612244898
+}

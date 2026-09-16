@@ -1,0 +1,24 @@
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+.env
+
+# Local Airflow state (the DAG itself stays tracked)
+services/airflow/airflow.cfg
+services/airflow/airflow.db
+services/airflow/logs/
+services/airflow/plugins/
+services/airflow/standalone_admin_password.txt
+services/airflow/webserver_config.py
+services/airflow/*.pid
+
+# Temporary downloads
+data/raw/*.tmp
+

@@ -1,0 +1,67 @@
+{
+  "initial_rows": 6292,
+  "duplicate_planet_names_removed": 0,
+  "rule_removals": {
+    "missing_target_or_radius": 0,
+    "mass_outside_planetary_range": 153,
+    "radius_outlier": 2,
+    "orbital_period_outlier": 3,
+    "semi_major_axis_outlier": 6,
+    "invalid_eccentricity": 0,
+    "equilibrium_temperature_outlier": 0,
+    "stellar_temperature_outlier": 4,
+    "stellar_radius_outlier": 0,
+    "stellar_mass_outlier": 0
+  },
+  "rows_after_validation": 6124,
+  "missing_values_before_imputation": {
+    "pl_rade": 0,
+    "pl_orbper": 290,
+    "pl_orbsmax": 415,
+    "pl_eqt": 495,
+    "pl_orbeccen": 988,
+    "st_teff": 277,
+    "st_rad": 288,
+    "st_mass": 2,
+    "sy_snum": 0,
+    "sy_pnum": 0,
+    "discoverymethod": 0
+  },
+  "planetary_mass_upper_limit_earth_masses": 4131.76894,
+  "train_rows": 4899,
+  "test_rows": 1225,
+  "test_size": 0.2,
+  "random_state": 42,
+  "features": [
+    "pl_rade",
+    "pl_orbper",
+    "pl_orbsmax",
+    "pl_eqt",
+    "pl_orbeccen",
+    "st_teff",
+    "st_rad",
+    "st_mass",
+    "sy_snum",
+    "sy_pnum",
+    "discoverymethod"
+  ],
+  "target": "pl_bmasse",
+  "imputation_values_learned_from_train": {
+    "numeric": {
+      "pl_rade": 2.79,
+      "pl_orbper": 10.559687499999999,
+      "pl_orbsmax": 0.099815,
+      "pl_eqt": 751.0,
+      "pl_orbeccen": 0.0,
+      "st_teff": 5544.0,
+      "st_rad": 0.95,
+      "st_mass": 0.94,
+      "sy_snum": 1.0,
+      "sy_pnum": 1.0
+    },
+    "categorical": {
+      "discoverymethod": "Transit"
+    }
+  },
+  "missing_values_after_imputation": 0
+}

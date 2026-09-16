@@ -1,0 +1,53 @@
+{
+  "model_name": "exoplanet-mass-random-forest",
+  "model_version": "1.0.0",
+  "trained_at_utc": "2026-09-16T20:00:06.129012+00:00",
+  "target": "pl_bmasse",
+  "target_unit": "Earth masses",
+  "features": [
+    "pl_rade",
+    "pl_orbper",
+    "pl_orbsmax",
+    "pl_eqt",
+    "pl_orbeccen",
+    "st_teff",
+    "st_rad",
+    "st_mass",
+    "sy_snum",
+    "sy_pnum",
+    "discoverymethod"
+  ],
+  "log_transformed_features": [
+    "pl_rade",
+    "pl_orbper",
+    "pl_orbsmax",
+    "pl_eqt"
+  ],
+  "train_rows": 4899,
+  "test_rows": 1225,
+  "random_state": 42,
+  "sklearn_version": "1.6.1",
+  "training_data_sha256": "ea1239e6a4e9c09fc1705c26da2a982faa7544f80b960788f7020d1039a40b89",
+  "testing_data_sha256": "6fd24270e1b75004abd2f276bca6a1d7e55d86c0228e2e6a4e83348489db17d9",
+  "discovery_methods": [
+    "Astrometry",
+    "Disk Kinematics",
+    "Eclipse Timing Variations",
+    "Imaging",
+    "Microlensing",
+    "Orbital Brightness Modulation",
+    "Pulsar Timing",
+    "Pulsation Timing Variations",
+    "Radial Velocity",
+    "Transit",
+    "Transit Timing Variations"
+  ],
+  "metrics": {
+    "mae_earth_masses": 74.4283251319945,
+    "median_ae_earth_masses": 1.2809691106688028,
+    "rmse_earth_masses": 282.2589231254779,
+    "r2": 0.7915855445090942,
+    "rmsle": 0.6005595303418079,
+    "within_factor_2_fraction": 0.8726530612244898
+  }
+}

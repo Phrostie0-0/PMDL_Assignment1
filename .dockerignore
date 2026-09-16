@@ -1,0 +1,16 @@
+.git
+.gitignore
+.DS_Store
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+data
+metrics
+notebooks
+services
+tests
+PMLDL Assignment 1_ Deployment.md
+README.md
+

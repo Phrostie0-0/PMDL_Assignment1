@@ -1,0 +1,22 @@
+feature,importance
+log__pl_rade,0.8483494878276274
+log__pl_orbsmax,0.08179549169476975
+log__pl_orbper,0.017719766788025445
+linear__st_rad,0.009786358320312091
+linear__st_teff,0.0077113203482756035
+linear__st_mass,0.007705473767445985
+linear__pl_orbeccen,0.007614888831665197
+log__pl_eqt,0.0070981050526597
+categorical__discoverymethod_Transit,0.005217188656740544
+linear__sy_pnum,0.004742578554987936
+categorical__discoverymethod_Imaging,0.0008824870198299676
+categorical__discoverymethod_Radial Velocity,0.0006747620646656886
+linear__sy_snum,0.0004956495311202848
+categorical__discoverymethod_Microlensing,0.00017444333049338815
+categorical__discoverymethod_Transit Timing Variations,2.4743631624842676e-05
+categorical__discoverymethod_Eclipse Timing Variations,3.0082038413278247e-06
+categorical__discoverymethod_Pulsar Timing,2.002333749640344e-06
+categorical__discoverymethod_Orbital Brightness Modulation,1.343229864995837e-06
+categorical__discoverymethod_Astrometry,9.008123001175623e-07
+categorical__discoverymethod_Pulsation Timing Variations,0.0
+categorical__discoverymethod_Disk Kinematics,0.0
